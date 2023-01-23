@@ -1,3 +1,22 @@
+/*comentário de uma linha |
+
+/*
+ comentario para mais de 1 linha
+ */
+
+//---------------------------------------
+/*
+ declarando variavel com var, let e const
+ */
+var nome_completo="joao da silva";//variavel pode ser alterada
+let idade = 20; // variavel pode ser alterada
+const cpf = "123456798"; // variavel nao pode ser alterada
+
+//console.log serve para "printar/mostrar" o valor no console do navegador
+console. log(nome_completo, idade,cpf)
+
+//alterar o valor das variaveis
+
 nome_completo = "Alice";
 idade = 20;
 
