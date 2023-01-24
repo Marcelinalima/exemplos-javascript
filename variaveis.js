@@ -83,13 +83,14 @@ let experiencias = [
 console.log(typeof experiencias)
 
 // principal diferença entre var e let
-if(true){
-  let variavelet="variavel let";
-  var variavelVar=" variavel var";
+
+if(true){//validacao somente para teste
+  let variaveLet="variavel let";//variavel declarada com let, somente pode ser usada dentro do if (bloco)
+  var variavelVar=" variavel var";//variavel declarada com var, pode ser usado fora do if (bloco) 
   
   console.log(variavelvalet)//printa o valor
   console.log(variavelVar) //printa o valor
 }
 
   console.log(variavelVar)//printa o valor
-  //console.log(variavelVar)  // o codigo da erro 
+  //console.log(variavelVar)  // o código da erro 
