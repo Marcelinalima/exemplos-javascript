@@ -81,3 +81,15 @@ let experiencias = [
 
 //typeof função do javascript para saber o tipo da variável;
 console.log(typeof experiencias)
+
+// principal diferença entre var e let
+if(true){
+  let variavelet="variavel let";
+  var variavelVar=" variavel var";
+  
+  console.log(variavelvalet)//printa o valor
+  console.log(variavelVar) //printa o valor
+}
+
+  console.log(variavelVar)//printa o valor
+  //console.log(variavelVar)  // o codigo da erro 
