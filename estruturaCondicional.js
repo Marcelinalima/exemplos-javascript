@@ -1,3 +1,4 @@
+// exemplo 1
 let idade = 18;
 let temTituloEleitor = false;
 
@@ -77,22 +78,22 @@ if(operacao === "soma"){
 
 // ---------------------------------------------------------
 // SWITCH CASE
-let signo = "Touro";
+    let signo = "Touro";
 
-switch (signo){ // o switch recebe somente um valor que sera testado abaixo
-  case "Áries" : 
-  case "áries" :
-  case "aries" : //valor o valor (signo) for igual aos textos ele irá executar o trecho de código
-    console.log("de 21 de março a 20 de abril");
-    break;
-  case "Touro":
-  case "touro":
-    console.log("de 21 de abril a 20 de maio");
-    break;
-  default : // default é opcional, só será executado quando a variavel signo for diferente das opções acima
-    console.log("signo não registrado");
-    break;
-}
+    switch (signo){ // o switch recebe somente um valor que sera testado abaixo
+      case "Áries" : 
+      case "áries" :
+      case "aries" : //valor o valor (signo) for igual aos textos ele irá executar o trecho de código
+        console.log("de 21 de março a 20 de abril");
+        break;
+      case "Touro":
+      case "touro":
+        console.log("de 21 de abril a 20 de maio");
+        break;
+      default : // default é opcional, só será executado quando a variavel signo for diferente das opções acima
+        console.log("signo não registrado");
+        break;
+    }
 
 // ---------------------------------------------------------
 
