@@ -12,8 +12,9 @@ let maiusculo = titulo.toUpperCase();
 maiusculo;
 let minusculo = titulo.toLowerCase();
 minusculo;
-let primeira_palavra = titulo.substr(10, 2);
+let primeira_word = titulo.substring(10, 2);
 primeira_palavra;
+let primeira_palavra = titulo.substring(10, 2);
 let segunda_palavra = titulo.slice(5, 20);
 segunda_palavra;
 let novoTitulo = titulo.replace("Wisehands", "Programação")
